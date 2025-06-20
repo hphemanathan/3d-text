@@ -37,7 +37,7 @@ const fontLoader = new FontLoader ()
 fontLoader.load("Font/helvetiker_regular.typeface.json", 
     (font) => {
         console.log('font loaded')
-        const textGeometry = new TextGeometry("Hello Hemanathan", {
+        const textGeometry = new TextGeometry("Hello world !", {
           font: font,
           size: 0.5,
           depth: 0.2,
